@@ -1,7 +1,6 @@
 import threading
 import cv2 
 from deepface import DeepFace
-user = input("m or k ? : ")
 cap = cv2.VideoCapture (0)
 
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
